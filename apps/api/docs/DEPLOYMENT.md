@@ -2,7 +2,7 @@
 
 ## Overview
 
-This guide covers deploying the Smart Stock Bot API to production environments. The platform is designed for containerized deployment with support for various cloud providers.
+This guide covers deploying the Smart Strategies Builder API to production environments. The platform is designed for containerized deployment with support for various cloud providers.
 
 ## Table of Contents
 

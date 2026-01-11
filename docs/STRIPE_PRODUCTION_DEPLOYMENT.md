@@ -1,6 +1,6 @@
 # Stripe Production Deployment Guide
 
-This guide covers deploying the Smart Stock Bot billing system with Stripe integration to production.
+This guide covers deploying the Smart Strategies Builder billing system with Stripe integration to production.
 
 ## Prerequisites
 

@@ -1,6 +1,6 @@
 # Legacy Code Archive
 
-This directory contains the previous prototype implementation of the Smart Stock Bot.
+This directory contains the previous prototype implementation of the Smart Strategies Builder.
 
 ## Status
 

@@ -1,6 +1,6 @@
-# Smart Stock Bot
+# Smart Strategies Builder
 
-Production-ready stock trading and portfolio management application with AI-powered insights, real-time market data, and comprehensive security features.
+Production-ready strategies building and portfolio management application with AI-powered insights, real-time market data, and comprehensive security features.
 
 ## Features
 
@@ -9,7 +9,7 @@ Production-ready stock trading and portfolio management application with AI-powe
 - **Real-Time Market Data**: Live quotes, WebSocket streaming, interactive charts with technical indicators
 - **Trading**: Paper and live trading modes with comprehensive guardrails, order management, and portfolio tracking
 - **Bank & Brokerage Integration**: Plaid for bank linking, Alpaca for trading, secure token management
-- **Smart AI Bot**: Trade suggestion engine with backtesting, risk management, and auto-trade capabilities (with safeguards)
+- **Smart AI Assistant**: Strategies suggestion engine with backtesting, risk management, and auto-trade capabilities (with safeguards)
 - **Production-Ready**: Comprehensive testing, CI/CD, Docker deployment, structured logging, and monitoring
 
 ## Architecture

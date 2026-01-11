@@ -2,7 +2,7 @@
 
 ## Overview
 
-Demo Mode allows the Smart Stock Bot frontend to run completely standalone without requiring a backend API connection. This is perfect for:
+Demo Mode allows the Smart Strategies Builder frontend to run completely standalone without requiring a backend API connection. This is perfect for:
 
 - **Portfolio showcases** - Demonstrate the UI/UX without infrastructure
 - **Development** - Work on frontend features without backend dependencies

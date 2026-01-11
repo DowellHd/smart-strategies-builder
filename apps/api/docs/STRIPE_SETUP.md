@@ -1,6 +1,6 @@
 # Stripe Integration Setup Guide
 
-This guide walks through setting up Stripe for subscription billing in the Smart Stock Bot API.
+This guide walks through setting up Stripe for subscription billing in the Smart Strategies Builder API.
 
 ## Prerequisites
 

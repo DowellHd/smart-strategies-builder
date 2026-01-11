@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-Get Smart Stock Bot running in 5 minutes!
+Get Smart Strategies Builder running in 5 minutes!
 
 ## Prerequisites
 
@@ -101,7 +101,7 @@ Frontend will be available at http://localhost:3000
 5. Look for a message like:
    ```
    📧 DEV EMAIL TO: your@email.com
-   📧 SUBJECT: Verify your email - Smart Stock Bot
+   📧 SUBJECT: Verify your email - Smart Strategies Builder
    ════════════════════════════════════════
    http://localhost:3000/auth/verify-email?token=LONG_TOKEN_HERE
    ```

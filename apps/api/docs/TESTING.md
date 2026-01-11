@@ -2,7 +2,7 @@
 
 ## Overview
 
-This guide covers running and writing tests for the Smart Stock Bot API. The test suite includes integration tests that verify the complete functionality of billing, entitlements, trading, and signal generation.
+This guide covers running and writing tests for the Smart Strategies Builder API. The test suite includes integration tests that verify the complete functionality of billing, entitlements, trading, and signal generation.
 
 ## Test Structure
 
