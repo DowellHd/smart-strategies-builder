@@ -75,7 +75,7 @@ export default function DashboardPage() {
     <div className="min-h-screen bg-background">
       <header className="border-b">
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
-          <h1 className="text-xl font-bold">Smart Stock Bot</h1>
+          <h1 className="text-xl font-bold">Smart Strategies Builder</h1>
           <Button variant="outline" onClick={handleLogout}>
             Sign out
           </Button>

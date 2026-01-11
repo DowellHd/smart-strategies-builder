@@ -53,7 +53,7 @@ export default function SignupPage() {
         <div className="text-center">
           <h1 className="text-3xl font-bold tracking-tight">Create an account</h1>
           <p className="mt-2 text-sm text-muted-foreground">
-            Start trading with Smart Stock Bot
+            Start building strategies with Smart Strategies Builder
           </p>
         </div>
 

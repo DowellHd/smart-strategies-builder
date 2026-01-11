@@ -51,7 +51,7 @@ export default function LoginPage() {
         <div className="text-center">
           <h1 className="text-3xl font-bold tracking-tight">Sign in</h1>
           <p className="mt-2 text-sm text-muted-foreground">
-            Welcome back to Smart Stock Bot
+            Welcome back to Smart Strategies Builder
           </p>
         </div>
 
