@@ -161,7 +161,7 @@ def generate_totp_secret() -> str:
     return pyotp.random_base32()
 
 
-def generate_totp_uri(secret: str, email: str, issuer: str = "Smart Stock Bot") -> str:
+def generate_totp_uri(secret: str, email: str, issuer: str = "Smart Strategies Builder") -> str:
     """
     Generate a TOTP provisioning URI for QR code generation.
 

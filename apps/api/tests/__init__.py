@@ -1,1 +1,1 @@
-"""Test suite for Smart Stock Bot API."""
+"""Test suite for Smart Strategies Builder API."""

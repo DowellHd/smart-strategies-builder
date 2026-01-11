@@ -41,8 +41,8 @@ async def lifespan(app: FastAPI) -> AsyncGenerator:
 
 # Create FastAPI application
 app = FastAPI(
-    title="Smart Stock Bot API",
-    description="Production-ready stock trading and portfolio management API",
+    title="Smart Strategies Builder API",
+    description="Production-ready strategies building and portfolio management API",
     version="1.0.0",
     docs_url=f"{settings.API_PREFIX}/docs" if settings.DEBUG else None,
     redoc_url=f"{settings.API_PREFIX}/redoc" if settings.DEBUG else None,
@@ -155,7 +155,7 @@ app.include_router(signals.router, prefix=f"{settings.API_PREFIX}/signals", tags
 async def root():
     """Root endpoint with API information."""
     return {
-        "name": "Smart Stock Bot API",
+        "name": "Smart Strategies Builder API",
         "version": "1.0.0",
         "status": "operational",
         "docs": f"{settings.API_PREFIX}/docs" if settings.DEBUG else "disabled",

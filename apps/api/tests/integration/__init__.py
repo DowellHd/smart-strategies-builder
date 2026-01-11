@@ -1,1 +1,1 @@
-"""Integration tests for Smart Stock Bot API."""
+"""Integration tests for Smart Strategies Builder API."""

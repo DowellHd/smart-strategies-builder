@@ -96,10 +96,10 @@ class EmailService:
         """
         verification_url = f"{settings.ALLOWED_ORIGINS[0]}/auth/verify-email?token={token}"
 
-        subject = "Verify your email - Smart Stock Bot"
+        subject = "Verify your email - Smart Strategies Builder"
 
         text_content = f"""
-Welcome to Smart Stock Bot!
+Welcome to Smart Strategies Builder!
 
 Please verify your email address by clicking the link below:
 {verification_url}
@@ -113,7 +113,7 @@ If you didn't create an account, please ignore this email.
 <html>
 <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
     <div style="max-width: 600px; margin: 0 auto; padding: 20px;">
-        <h2 style="color: #2563eb;">Welcome to Smart Stock Bot!</h2>
+        <h2 style="color: #2563eb;">Welcome to Smart Strategies Builder!</h2>
         <p>Thank you for signing up. Please verify your email address by clicking the button below:</p>
         <div style="margin: 30px 0;">
             <a href="{verification_url}"
@@ -147,12 +147,12 @@ If you didn't create an account, please ignore this email.
         """
         reset_url = f"{settings.ALLOWED_ORIGINS[0]}/auth/reset-password?token={token}"
 
-        subject = "Password Reset - Smart Stock Bot"
+        subject = "Password Reset - Smart Strategies Builder"
 
         text_content = f"""
 Password Reset Request
 
-We received a request to reset your password for Smart Stock Bot.
+We received a request to reset your password for Smart Strategies Builder.
 
 Click the link below to reset your password:
 {reset_url}
@@ -167,7 +167,7 @@ If you didn't request a password reset, please ignore this email or contact supp
 <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
     <div style="max-width: 600px; margin: 0 auto; padding: 20px;">
         <h2 style="color: #2563eb;">Password Reset Request</h2>
-        <p>We received a request to reset your password for Smart Stock Bot.</p>
+        <p>We received a request to reset your password for Smart Strategies Builder.</p>
         <div style="margin: 30px 0;">
             <a href="{reset_url}"
                style="background-color: #2563eb; color: white; padding: 12px 30px; text-decoration: none; border-radius: 5px; display: inline-block;">
@@ -189,12 +189,12 @@ If you didn't request a password reset, please ignore this email or contact supp
 
     async def send_mfa_enabled_email(self, email: str) -> bool:
         """Send notification that MFA was enabled."""
-        subject = "MFA Enabled - Smart Stock Bot"
+        subject = "MFA Enabled - Smart Strategies Builder"
 
         text_content = """
 Multi-Factor Authentication Enabled
 
-Two-factor authentication has been successfully enabled for your Smart Stock Bot account.
+Two-factor authentication has been successfully enabled for your Smart Strategies Builder account.
 
 Your account is now more secure!
 
@@ -206,7 +206,7 @@ If you didn't enable MFA, please contact support immediately.
 <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
     <div style="max-width: 600px; margin: 0 auto; padding: 20px;">
         <h2 style="color: #16a34a;">Multi-Factor Authentication Enabled</h2>
-        <p>Two-factor authentication has been successfully enabled for your Smart Stock Bot account.</p>
+        <p>Two-factor authentication has been successfully enabled for your Smart Strategies Builder account.</p>
         <p>Your account is now more secure! 🔒</p>
         <p style="margin-top: 30px; font-size: 14px; color: #666;">
             If you didn't enable MFA, please contact support immediately.
