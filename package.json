@@ -1,8 +1,8 @@
 {
-  "name": "smart-stock-bot",
+  "name": "smart-strategies-builder",
   "version": "1.0.0",
   "private": true,
-  "description": "Production-ready stock trading and portfolio management application",
+  "description": "Production-ready strategies building and portfolio management application",
   "workspaces": [
     "apps/*",
     "packages/*"

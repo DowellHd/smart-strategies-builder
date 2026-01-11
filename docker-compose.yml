@@ -3,7 +3,7 @@ version: '3.8'
 services:
   postgres:
     image: postgres:15-alpine
-    container_name: smart-stock-bot-db
+    container_name: smart-strategies-builder-db
     environment:
       POSTGRES_USER: stockbot
       POSTGRES_PASSWORD: stockbot_dev_password
@@ -20,7 +20,7 @@ services:
 
   redis:
     image: redis:7-alpine
-    container_name: smart-stock-bot-redis
+    container_name: smart-strategies-builder-redis
     ports:
       - "6379:6379"
     volumes:
@@ -35,7 +35,7 @@ services:
     build:
       context: ./apps/api
       dockerfile: Dockerfile
-    container_name: smart-stock-bot-api
+    container_name: smart-strategies-builder-api
     ports:
       - "8000:8000"
     environment:
@@ -58,7 +58,7 @@ services:
     build:
       context: ./apps/web
       dockerfile: Dockerfile.dev
-    container_name: smart-stock-bot-web
+    container_name: smart-strategies-builder-web
     ports:
       - "3000:3000"
     environment:

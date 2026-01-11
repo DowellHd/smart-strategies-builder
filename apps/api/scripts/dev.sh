@@ -3,7 +3,7 @@
 
 set -e
 
-echo "Starting Smart Stock Bot API (development mode)..."
+echo "Starting Smart Strategies Builder API (development mode)..."
 
 # Activate virtual environment if it exists
 if [ -d "venv" ]; then
