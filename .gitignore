@@ -16,6 +16,7 @@ out/
 dist/
 build/
 *.egg-info/
+*.tsbuildinfo
 
 # Environment files
 .env
