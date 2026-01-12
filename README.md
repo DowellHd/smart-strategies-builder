@@ -1,4 +1,13 @@
-# Smart Strategies Builder
+# Smart Strategies Builder (Legacy Monorepo)
+
+> **Note:** This repository has been split into two separate repositories as part of Phase 5:
+>
+> - **Frontend (Public):** [ssb-web](https://github.com/DowellHd/ssb-web) — Next.js frontend with demo mode
+> - **Backend (Private):** [ssb-api](https://github.com/DowellHd/ssb-api) — FastAPI backend with infrastructure
+>
+> This monorepo is kept for historical reference. All new development should use the split repositories.
+
+---
 
 Production-ready strategies building and portfolio management application with AI-powered insights, real-time market data, and comprehensive security features.
 
